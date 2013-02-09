@@ -3,37 +3,41 @@
     <%= @event.name if @event.name%>
   </div>
 
-  <div id="event-date">
-    <div id="event-label">
-      Date
-   </div>
-    <div id="event-date-details">
-      <%= @event.date if @event.date %>
-    </div>
-  </div>
+  <div id="event-details">
+    <div id="date-time-details">
+      <div id="event-date">
+        <div id="event-label">
+          Date
+        </div>
+        <div id="event-date-details">
+          <%= @event.date if @event.date %>
+        </div>
+      </div>
 
-  <div id="event-time">
-    <div id="event-label">
-      Time
+      <div id="event-time">
+        <div id="event-label">
+          Time
+        </div>
+        <div id="event-time-details">
+          <%= @event.time if @event.time %>
+        </div>
+      </div>
     </div>
-    <div id="event-time-details">
-      <%= @event.time if @event.time %>
-    </div>
-  </div>
 
-  <div id="event-location">
-    <div id="event-location-label">
-      Where?
+    <div id="event-location">
+      <div id="event-location-label">
+        Where?
+      </div>
+      <div id="event-location-details">
+        <%= @event.location if @event.location %>
+      </div>
     </div>
-    <div id="event-location-details">
-      <%= @event.location if @event.location %>
-    </div>
-  </div>
 
-  <div id="share-buttons">
-    <div id="share-button">
-      <a href="https://twitter.com/share" class="twitter-share-button" data-via="DruRly">Tweet</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <div id="share-buttons">
+      <div id="share-button">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="DruRly">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
     </div>
   </div>
 </div>

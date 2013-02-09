@@ -21,6 +21,7 @@
 }
 
 #name{
+  font-size: 35px;
 }
 
 #events {
@@ -33,6 +34,14 @@
 
 #event-date{
   float: left;
+}
+
+#event-time{
+  padding-left: 70px;
+}
+
+#event-label{
+  font-size: 22px;
 }
 
 #event-name{
