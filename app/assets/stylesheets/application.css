@@ -41,6 +41,8 @@ body {
   float: left;
   padding-left: 38px;
   width: 63px;
+  font-size: 18px;
+  letter-spacing: 3px;
 }
 
 #event-time{
@@ -58,7 +60,8 @@ body {
 }
 
 .logo {
-  font-size: 20px;
+  font-size: 30px;
+  padding-top: 8px;
   font-weight: 200;
   color: #777;
 }
@@ -74,6 +77,7 @@ body {
 
 #event-name{
   padding-left: 20%;
+  font-size: 18px;
 }
 
 #event-location{
