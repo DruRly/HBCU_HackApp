@@ -16,6 +16,14 @@
 /*------------------------------------*\
  *     $IPHONE
  *     \*------------------------------------*/
+
+#time{
+  float: left;
+}
+
+#event-name{
+  padding-left: 5%;
+}
 @media screen and (max-device-width: 480px){
     /*--- iPhone only CSS here ---*/
 }
