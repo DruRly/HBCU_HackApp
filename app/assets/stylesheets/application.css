@@ -29,6 +29,10 @@ body {
   text-align: center;
 }
 
+#event {
+  padding-bottom: 7px;
+}
+
 #events {
   padding-top: 20px;
 }
