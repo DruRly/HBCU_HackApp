@@ -39,23 +39,25 @@ body {
 
 #event-date{
   float: left;
-  padding-left: 30px;
+  padding-left: 38px;
   width: 63px;
 }
 
 #event-time{
   margin-left: 32px;
-  padding-left: 133px;
+  padding-left: 103px;
+}
+
+#event-time-details{
+  font-size: 16px;
 }
 
 #event-label{
   font-size: 28px;
+  padding-left: 2px;
 }
 
 .logo {
-  display: block;
-  float: left;
-  padding: 9px 0% 0% 4%;
   font-size: 20px;
   font-weight: 200;
   color: #777;
@@ -63,10 +65,11 @@ body {
 
 #date-time-details{
   padding-top: 20px;
+  text-align: center;
 }
 
 #event-date-details{
-  font-size: 20;
+  font-size: 16px;
 }
 
 #event-name{
@@ -76,11 +79,32 @@ body {
 #event-location{
   clear: both;
   padding-top: 28px;
-  padding-left: 33px;
+  padding-left: 48px;
+}
+
+#event-location-details{
+  font-size: 16px;
+}
+
+#event-location-label{
+  font-size: 28px;
 }
 
 #share-buttons{
   padding-left: 33px;
+  padding-top: 15px;
+}
+
+
+#twitter-share-label{
+  font-size: 28px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+#twitter-share-button{
+  padding-left: 14px;
+  padding-top: 7px;
 }
 
 @media screen and (max-device-width: 480px){
