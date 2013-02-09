@@ -20,6 +20,10 @@
   font-size: 37px;
 }
 
+#events {
+  padding-top: 20px;
+}
+
 #event-date{
   float: left;
 }
