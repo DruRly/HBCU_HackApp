@@ -16,12 +16,17 @@
 /*------------------------------------*\
  *     $IPHONE
  *     \*------------------------------------*/
+
+body {
+  font-family: 'PT Sans Narrow';
+}
 #logo {
   font-size: 37px;
 }
 
 #name {
   font-size: 30px;
+  text-align: center;
 }
 
 #events {
@@ -29,24 +34,55 @@
 }
 
 #event-contents {
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 #event-date{
   float: left;
+  padding-left: 30px;
+  width: 63px;
 }
 
 #event-time{
-  padding-left: 70px;
+  margin-left: 32px;
+  padding-left: 133px;
 }
 
 #event-label{
-  font-size: 22px;
+  font-size: 28px;
+}
+
+.logo {
+  display: block;
+  float: left;
+  padding: 9px 0% 0% 4%;
+  font-size: 20px;
+  font-weight: 200;
+  color: #777;
+}
+
+#date-time-details{
+  padding-top: 20px;
+}
+
+#event-date-details{
+  font-size: 20;
 }
 
 #event-name{
   padding-left: 20%;
 }
+
+#event-location{
+  clear: both;
+  padding-top: 28px;
+  padding-left: 33px;
+}
+
+#share-buttons{
+  padding-left: 33px;
+}
+
 @media screen and (max-device-width: 480px){
     /*--- iPhone only CSS here ---*/
 }

@@ -6,12 +6,19 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
 </head>
-<body>
-<div id="logo">
-  When N Where
-</div>
-<%= yield %>
-
+<body style="font-family: 'PT Sans Narrow';">
+  <div class="container">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner" style="padding-left: 74px; font-family: 'PT Sans Narrow'; font-size: 28px;">
+        <div class="container"></div>
+        <div class="logo">
+          WhenAndWhere
+        </div>
+      </div>
+    </div>
+    <%= yield %>
+  </div>
 </body>
 </html>
