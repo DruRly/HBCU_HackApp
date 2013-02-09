@@ -11,3 +11,11 @@
  *= require_self
  *= require_tree .
  */
+/*--- Main CSS here ---*/
+
+/*------------------------------------*\
+ *     $IPHONE
+ *     \*------------------------------------*/
+@media screen and (max-device-width: 480px){
+    /*--- iPhone only CSS here ---*/
+}
