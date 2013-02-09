@@ -24,6 +24,10 @@
   padding-top: 20px;
 }
 
+#event-contents {
+  padding-top: 15px;
+}
+
 #event-date{
   float: left;
 }
